@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<!DOCTYPE html>
-<html>
-<body>
-<p id="demo"></p>
-<script>
-function myFunction(a, b) {
-    return a * b;
-}
-</script>
-</body>
+    <body>
+        <h1>Hello World</h1>
+        <p id="demo"></p>
+        <script>
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("demo").innerHTML = this.responseText;
+              }
+            };
+            xhttp.open("GET", "http://www.google.fr", true);
+            xhttp.send();
+        </script>
+    </body>
 </html>

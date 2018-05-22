@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <h1>Hello World - modified</h1>
+    <head>
+        
         <p id="demo"></p>
-        <script>
-            xhttp.onreadystatechange = function() {
-              if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("demo").innerHTML = this.responseText;
-              }
-            };
-            // xhttp.open("GET", "http://www.google.fr", true);
-            xhttp.open("GET", "file:///c:/", true);
-            xhttp.send();
-        </script>
         <link rel="manifest" href="/manifest.json" />
         <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
         <script>
@@ -23,5 +13,8 @@
                 });
             });
         </script>
+        </head>
+    <body>
+        <h1>Hello World - modified</h1>
     </body>
 </html>

@@ -1,0 +1,12 @@
+{
+       "key_generation": {
+              "algorithm": "sha256",
+              "iterations": 67108864
+       },
+       "message": {
+              "algorithm": "AES",
+              "iv": "BkgvUn1U5K1UF8642lpdow==",
+              "message": "VfYW4fjoR7hbPx5ZYHEFkUC5cx/LNjtCRF3PpnaQBdH29jmgEdK6Ox6dIKdaFDpKuIhgYjd3NlDRmgmZRT7evP7Am3TcFHOHYawvQXAIeK4WBJPgtNnF60i5CYXSnXS3PciSHzzY+rcrnrBeN3H1V6lJxkHxo2iDqc9yfV2Y7n8zcVKyjzmiLfJX40HP+dej0sx6GXw2+xa6k9dq4gMMjcrKizMIkPYExAyqty2A8m2BlA03E2f2lPLPpoNSokhhmctgSbRwFLCk3gqJxyF+jYWO/KfCv/WjCKpsTiz/jj+YgiCTPPpOrtvTHCxXR5+zZcK9MNmByDfA3ah6X5Ee9ozcK5qRK+Ki",
+              "mode": "CTR"
+       }
+}
